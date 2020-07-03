@@ -4,10 +4,10 @@
 After completing initial analysis of PyBer ride data, I created a summary of all the key metrics derived in a separate dataframe. In order to accomplish this task, in the very beginning of my analysis I merged two csv files to arrive at a single dataframe. I then calculated various metrics that can help tell compare and contrast the data and ultimately tell the data story, such as total rides, fares, driver count, as well as averages of some of these metrics. I used `groupby()` and `copy()` methods on the dataframe to accompish this task. While looking at dataframes and statistical summaries is good, visualizations are very important to reveal trends quickly, therefore, I also created a line graph that demonstrates the trend by City Type week over week. From this graph below, we can clearly see the leading contributing position of Urban cities as well as weekly trends, such as when demand peeks at the end of February across all three categories, suggesting it's connected with an event that impacts all three locations, such as beginning of spring break or similar.
 
 Pyber Summary Dataframe
-![Pyber Summary Dataframe](TBC)
+![Pyber Summary Dataframe](https://github.com/AnnaS0272/PyBer_Analysis/blob/master/Analysis/pyber_summary_df.png)
 
 Pyber Summary Line Chart by week
-![Pyber Summary Line Chart by week](TBC)
+![Pyber Summary Line Chart by week](https://github.com/AnnaS0272/PyBer_Analysis/blob/master/Analysis/Pyber%20Summary%20Line%20Chart%20by%20week.png)
 
 
 While I did not encounter any specific challenges durind the analysis, there can be many. As we load and examine the data, it's importnat to check for missing values or incorrect value; we can do that using, for example, `isnull()` method. In cases if such values exist we need to either remove them from a dataset to avoid scewed averages, or substitute them to what we believe would be a reasonable substitution to preserve the sample size. 
